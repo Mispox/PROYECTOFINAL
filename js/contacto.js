@@ -3,14 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const formError = document.getElementById('form-error');
 
     contactForm.addEventListener('submit', function(event) {
-        // Prevent the form from submitting by default
+      
         event.preventDefault();
         
-        // Clear previous error messages
+       
         formError.textContent = '';
         formError.style.display = 'none';
 
-        // Get form fields
+     
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
         const message = document.getElementById('message').value.trim();
@@ -41,4 +41,5 @@ document.addEventListener('DOMContentLoaded', () => {
             this.form.submit();
         }
     });
+
 });
