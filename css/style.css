@@ -433,7 +433,7 @@ footer nav li:hover {
     background-color: #343a40;
 }
 
-/* Custom Button Styles */
+
 .btn-accent {
     background-color: var(--color-accent);
     color: white;
@@ -441,6 +441,7 @@ footer nav li:hover {
 }
 
 .btn-accent:hover {
-    background-color: #5d359b; /* A slightly lighter shade for hover */
+    background-color: #5d359b; 
     color: white;
 }
+
