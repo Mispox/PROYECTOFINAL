@@ -455,6 +455,6 @@ footer nav li:hover {
 }
 
 .card:hover .card-img-top {
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
