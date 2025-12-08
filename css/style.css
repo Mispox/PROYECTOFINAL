@@ -445,3 +445,16 @@ footer nav li:hover {
     color: white;
 }
 
+/* Zoom effect for product images */
+.card {
+    overflow: hidden;
+}
+
+.card .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
