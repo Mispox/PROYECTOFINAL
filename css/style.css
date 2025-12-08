@@ -13,7 +13,7 @@
     --color-degrade-start: #667eea;
     --color-degrade-end: #764ba2;
     --color-accent: #4a148c;
-    --color-background: #ffffff; 
+    --color-background: #ffffff;
     --color-text: #333333;
     --color-manga-border: #dddddd;
     --color-price: #555555;
@@ -59,7 +59,7 @@ header {
 }
 
 .logo img {
-    height: 50px; 
+    height: 50px;
     object-fit: contain;
 }
 
@@ -84,8 +84,8 @@ nav ul {
 }
 
 nav a {
-    color: white; 
-    font-weight: 400; 
+    color: white;
+    font-weight: 400;
     font-size: 1rem;
     padding: 0.5rem 0;
     position: relative;
@@ -257,7 +257,7 @@ footer nav li:hover {
         gap: 15px;
         text-align: center;
     }
-    
+
     header .main-nav {
         flex-direction: column;
         gap: 15px;
@@ -266,12 +266,12 @@ footer nav li:hover {
     header .auth-links {
         justify-content: center;
     }
-    
+
     nav ul {
         gap: 1.5rem;
         justify-content: center;
     }
-    
+
     main {
         padding: 0 1rem;
     }
@@ -279,10 +279,10 @@ footer nav li:hover {
 
 @media (max-width: 576px) {
     section div {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
     article img {
-        height: 250px; 
+        height: 250px;
     }
 }
 
@@ -382,7 +382,7 @@ footer nav li:hover {
 
 .contact-form label {
     display: block;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     font-weight: 500;
     color: #555;
 }
@@ -441,7 +441,7 @@ footer nav li:hover {
 }
 
 .btn-accent:hover {
-    background-color: #5d359b; 
+    background-color: #5d359b;
     color: white;
 }
 
@@ -454,7 +454,6 @@ footer nav li:hover {
     transition: transform 0.3s ease;
 }
 
-.card:hover .card-img-top {
+.card-img-top:hover {
     transform: scale(1.3);
 }
-
